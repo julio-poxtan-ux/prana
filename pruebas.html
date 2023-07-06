@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mostrar información desde JSON</title>
+</head>
+
+<body>
+    <h1>Información</h1>
+    <div id="datos-container">
+        <p id="nombre"></p>
+        <p id="edad"></p>
+        <p id="correo"></p>
+    </div>
+    <script>
+    // Cargar el archivo JSON
+    fetch('datos.json')
+        .then(response => response.json())
+        .then(data => {
+            // Obtener los elementos del DOM donde se mostrarán los datos
+            const nombreElement = document.getElementById('nombre');
+            const edadElement = document.getElementById('edad');
+            const correoElement = document.getElementById('correo');
+
+            // Mostrar los datos del JSON en los elementos del DOM
+            nombreElement.textContent = 'Nombre: ' + data.nombre;
+            edadElement.textContent = 'Edad: ' + data.edad;
+            correoElement.textContent = 'Correo electrónico: ' + data.correo;
+        });
+    </script>
+</body>
+
+</html>

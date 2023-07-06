@@ -1,0 +1,360 @@
+:root {
+    --prana-color: #443C36;
+    --prana-verde: #8DA616;
+    --prama-gris: #6C6D62;
+    --prama-cafe-1: #E6DACF;
+}
+
+.justify-pa {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation-prana {
+    background: rgba(69, 57, 50, 0.85);
+    backdrop-filter: blur(2px);
+    /*    height: 82px;*/
+    align-items: baseline;
+}
+
+.banner-hero-image {
+    background-image: url('../sourse/header-prana.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.padding-hero {
+    padding: 12rem 0 0 17rem;
+}
+
+.btn-prana {
+    background-color: var(--prana-verde);
+    /*    margin-left: 4vw;*/
+    color: white;
+}
+
+.btn-prana:hover {
+    background-color: var(--prama-gris);
+    color: white;
+}
+
+.btn-hero {
+    margin-left: 4vw;
+}
+
+.section-banner-loby {
+    background-image: url('../sourse/loby-prana-merida.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-banner {
+    font-weight: 700;
+    font-size: clamp(3.5rem, 0.95rem + 0.25vw, 1.25rem);
+    justify-content: center;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fondo-section-acuarela {
+    background-image: url('../sourse/fondo-acuarela-blancojpg.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-secction {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    padding: 80px 0;
+    color: var(--prana-color);
+}
+
+.title-copy {
+    font-weight: 700;
+    font-size: clamp(3rem, 0.95rem + 0.25vw, 1.25rem);
+    line-height: 58px;
+}
+
+.circle {
+    border-radius: 100%;
+    text-align: center;
+    padding: 32px;
+    margin: 32px auto;
+    width: 300px;
+    height: 300px;
+    box-shadow: 63px 214px 89px rgba(0, 0, 0, 0.01), 35px 120px 75px rgba(0, 0, 0, 0.03), 16px 53px 56px rgba(0, 0, 0, 0.04), 4px 13px 31px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.circle-disponible {
+    background-color: var(--prana-verde);
+}
+
+.circle-1 {
+    background-color: #E6DACF;
+}
+
+.circle-2 {
+    background-color: var(--prana-color);
+    color: white;
+}
+
+.section-cotizador {
+    background-image: url('../sourse/fachada-cotizador.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    /*    padding-top: 5rem;*/
+}
+
+.cotizador-header {
+    background: rgb(255 255 255 / 50%);
+    padding: 10px;
+    margin-top: 7rem;
+    border-radius: 40px;
+    width: auto;
+    text-align: center;
+}
+
+.section-banner-image {
+    background-image: url('../sourse/banner-fondo-prana.jpg');
+    height: 89vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-acuerela-cafe {
+    background-image: url('../sourse/Fondo-cafe-min.jpg');
+    /*    height: 100vh;*/
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 9rem;
+}
+
+.section-luvora {
+    background-color: black;
+    height: 89vh;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.items {
+    /*    padding:0 15rem 0 15rem;*/
+    margin: auto;
+}
+
+.button-cotizador-nivel {
+    /*    padding: 2.2rem;*/
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    width: min(530px, calc(100vw - 5px), 92vw);
+    height: 95px;
+    background-color: rgb(255 255 255 / 70%);
+    border: 2px inset var(--prana-verde);
+}
+
+.button-cotizador-nivel:hover {
+    background-color: rgb(141 166 22 / 55%);
+    color: white;
+}
+
+.fondo-nivel-1 {
+    background-image: url('../sourse/niveles/Nivel-1-min-400.png');
+    width: 68vw;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.content {
+    display: none;
+    /*    margin-top: 50px;*/
+}
+
+.content.active {
+    display: block;
+}
+
+.boton {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    /*    padding: 4px 46px;*/
+}
+
+.btn-lotus-l {
+/*    padding: 4px 14px;*/
+    cursor: pointer;
+}
+
+.btn-lotus-r {
+/*    padding: 0px 36px;*/
+    cursor: pointer;
+}
+
+.btn-container_100 {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-aura-r {
+/*    padding: 0 42px;*/
+    cursor: pointer;
+}
+
+h2 span {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.btn-lotus-l:hover {
+    background: rgba(141, 166, 22, 0.9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-lotus-r:hover {
+    background: rgba(141, 166, 22, 0.9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-aura-r:hover {
+    background: rgba(141, 166, 22, 0.9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-aura-l:hover {
+    background: rgba(141, 166, 22, 0.9);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-cotizador__ver {
+    color: rgba(141, 166, 22, 0.3);
+}
+.content.active {
+    display: block;
+}
+
+.nivel-1-img{
+    background-image: url('../sourse/niveles/nivel-1-arriba514.png');
+    width: 26vw;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+/*    height: 100vh;*/
+}
+.modal-nivel-1 {
+/*    width: 400px;*/
+}
+
+.informacion {
+    display: none;
+}
+
+.btn-piso-modal {
+    background-color: transparent;
+    padding: 110px;
+    width: 100%;
+}
+
+.color-a {
+    background-color: rgb(76 135 139 / 30%);
+    height: auto;
+    padding: 8rem;
+}
+
+.color-v {
+    background-color: rgb(96 119 86 /30%);
+
+}
+
+.color-a:hover {
+    background-color: rgb(76 135 139 / 70%);
+}
+
+.color-v:hover {
+    background-color: rgb(171 250 135 / 70%);
+}
+
+.logo-badge {
+    max-width: 30vw;
+}
+
+.lista-room>li {
+    left: 0;
+    top: 6px;
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    background: url("data:image/svg+xml,%3Csvg width='15' height='15' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 7.5C15 3.35852 11.6415 0 7.5 0C3.35852 0 0 3.35852 0 7.5C0 11.6415 3.35852 15 7.5 15C11.6415 15 15 11.6415 15 7.5Z' fill='%238DA616'/%3E%3Cpath d='M11.6294 4.98764C11.4541 4.53117 11.0944 4.60372 10.7044 4.68232C10.4716 4.73068 9.43474 5.03298 7.79931 6.76212C7.11915 7.47857 6.67175 8.04991 6.37549 8.48522C6.19412 8.26454 5.98855 8.02573 5.7709 7.8111C5.10282 7.14302 4.35615 6.68353 4.32592 6.66539C4.01455 6.47494 3.60645 6.57168 3.41298 6.88607C3.22253 7.19743 3.31927 7.60553 3.63063 7.799C3.63668 7.80203 4.27755 8.19804 4.82773 8.75124C5.39 9.31351 5.90089 10.0753 5.90693 10.0844C6.03087 10.2718 6.23946 10.3806 6.46014 10.3806C6.49641 10.3806 6.53571 10.3776 6.57501 10.3716C6.83499 10.3262 7.04055 10.1327 7.10403 9.87881C7.10705 9.87276 7.37005 9.14423 8.7576 7.68111C9.8761 6.49912 10.6228 6.12428 10.8827 6.02149C10.8858 6.02149 10.8858 6.02149 10.8918 6.02149C10.8918 6.02149 10.9009 6.01847 10.916 6.0094C10.9613 5.99126 10.9855 5.98522 10.9855 5.98522C10.9734 5.98824 10.9674 5.98824 10.9674 5.98824V5.98522C11.0883 5.93383 11.312 5.83709 11.315 5.83407C11.6506 5.68897 11.7624 5.32621 11.6294 4.98764Z' fill='white'/%3E%3C/svg%3E%0A") no-repeat left top;
+    padding: 0px 0 3px 24px;
+}
+
+.btn-svg {
+    position: absolute;
+}
+
+button.accordion-button.collapsed {
+    background-color: var(--prana-verde);
+    color: white;
+}
+
+button.accordion-button {
+    background-color: var(--prana-verde);
+}
+
+a.btn.btn-lg.btn-prana.mt-4.dropdown-i {
+    width: 100% !important;
+}
+
+/*Responsive*/
+@media (max-width: 1200px) {
+    .header-banner {
+        font-size: 3rem;
+    }
+
+    .padding-hero {
+        padding: 5rem;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .section-luvora {
+        height: 988px;
+        max-height: 1000px;
+    }
+    .a.btn.btn-lg.btn-prana.mt-4.dropdown-i {
+        width: 300px;
+    }
+
+    .fondo-nivel-1 {
+        width: auto;
+/*        display: none;*/
+    }
+}
