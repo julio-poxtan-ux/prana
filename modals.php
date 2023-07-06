@@ -276,7 +276,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="btn-container btn-lotus-r">
-                                    <a type="button" onclick="mostrarContenido(11)"><img src="btn-nivel.svg" alt="Lotus"></a>
+                                    <a type="button" onclick="mostrarContenido(11)"><img src="btn-arriba-101.svg" alt="Lotus"></a>
                                     <!-- <button type="button" class="btn btn-primary btn-lg btn-block" onclick="mostrarContenido(2)">Botón 2</button> -->
                                 </div>
                             </div>
@@ -284,13 +284,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="btn-container btn-aura-r">
-                                    <a type="button" onclick="mostrarContenido(10)"><img src="btn-nivel.svg" alt="Aura"></a>
+                                    <a type="button" onclick="mostrarContenido(10)"><img src="btn-arriba-101.svg" alt="Aura"></a>
                                     <!-- <button type="button" class="btn btn-primary btn-lg btn-block" onclick="mostrarContenido(3)">Botón 3</button> -->
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="btn-container btn-aura-r">
-                                    <a type="button" onclick="mostrarContenido(9)"><img src="btn-nivel.svg" alt="Aura"></a>
+                                    <a type="button" onclick="mostrarContenido(9)"><img src="btn-arriba-101.svg" alt="Aura"></a>
                                     <!-- <button type="button" class="btn btn-primary btn-lg btn-block" onclick="mostrarContenido(4)">Botón 4</button> -->
                                 </div>
                             </div>
