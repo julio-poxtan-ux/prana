@@ -4,7 +4,7 @@
 <head>
     <title>PRANA - Comunidad Holística</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="En PRANA Descubre la experiencia de un hogar que va más allá de las expectativas.">
     <meta property="og:image" content="previo.jpg">
     <link rel="icon" href="sourse/favicon.png">
@@ -32,7 +32,15 @@
     <meta property="twitter:description" content="En PRANA Descubre la experiencia de un hogar que va más allá de las expectativas." />
     <meta property="twitter:image" content="previo.jpg" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZF8W8QDM9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-EZF8W8QDM9');
+</script>
 <body>
     <!-- Menu principal -->
     <nav class="navbar navbar-expand-md sticky-top navigation-prana py-3" data-bs-theme="dark">
@@ -66,23 +74,26 @@
         <div class="d-block">
             <img src="sourse/logo-header-prana.svg" alt="Prana" class="img-fluid">
         </div>
-        <div class="d-block">
+        <div class="d-flex align-items-center justify-content-start">
             <a class="btn btn-lg btn-prana mt-5 fw-bold btn-hero" href="#descripcion">CONOCER MÁS</a>
         </div>
-    </div>
+    </div> 
+
+
     <!-- Hero -->
     <!-- Banner -->
     <div class="d-flex align-items-center justify-content-center section-banner-loby">
-        <h2 class="header-banner" data-aos="zoom-in-up">EN PRANA LA SANACIÓN ES UN <br> CAMINO QUE RECORREMOS JUNTOS
+        <h2 class="header-banner" data-aos="zoom-in-up">EN PRANA LA SANACIÓN <br>ES UN  CAMINO QUE RECORREMOS JUNTOS
         </h2>
     </div>
     <!-- Banner -->
     <!-- Video -->
-    <video src="sourse/video/pranav3_1.mp4" type="video/mp4" class="w-100" muted controls poster="sourse/screenshot-video.jpg">
+    <section class="video-section">
+        <video src="sourse/video/pranav3_1.mp4" type="video/mp4" class="w-100 video-prana" muted controls poster="sourse/screenshot-video.jpg">
         <source src="sourse/video/pranav3_1.mp4" type="video/mp4" class="w-100" muted controls poster="sourse/screenshot-video.jpg" />
-        <source src="mivideo.webm" type="video/webm" />
-        <p>Su navegador no soporta vídeos HTML5.</p>
     </video>
+    </section>
+    
     <!-- Video -->
     <!-- Descripcion -->
     <section id="descripcion" class="fondo-section-acuarela" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -90,23 +101,23 @@
             <h2 class="text-center title-secction">DESCRIPCIÓN</h2>
             <div class="row justify-content-md-center pt-2">
                 <div class="col-md-4 circle circle-1" data-aos="zoom-in" data-aos-delay="50">
-                    <img src="sourse/disenando-prana.svg" width="120px" alt="Diseñado para impulsar el autodescubrimiento.">
-                    <p class="pt-4">Diseñado para impulsar el autodescubrimiento.</p>
+                    <img src="sourse/disenando-prana.svg" width="100px" alt="Diseñado para impulsar el autodescubrimiento.">
+                    <p class="pt-5">Diseñado para impulsar el autodescubrimiento.</p>
                 </div>
                 <div class="col-md-4 circle circle-2" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="sourse/departamentos-prana.svg" width="110px" alt="16 departamentos exclusivos en la zona más privilegiada de la ciudad.">
-                    <p class="pt-3">16 departamentos exclusivos en la zona más privilegiada de la ciudad.</p>
+                    <img src="sourse/departamentos-prana.svg" width="90px" alt="16 departamentos exclusivos en la zona más privilegiada de la ciudad.">
+                    <p class="pt-5">16 departamentos exclusivos en la zona más privilegiada de la ciudad.</p>
                 </div>
                 <div class="col-md-4 circle circle-1" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="sourse/comunidad-prana.svg" width="140px" alt="Una comunidad enfocada en el desarrollo físico y espiritual.">
-                    <p class="pt-4">Una comunidad enfocada en el desarrollo físico y espiritual.</p>
+                    <img src="sourse/comunidad-prana.svg" width="120px" alt="Una comunidad enfocada en el desarrollo físico y espiritual.">
+                    <p class="pt-5">Una comunidad enfocada en el desarrollo físico y espiritual.</p>
                 </div>
             </div>
             <div class="row pt-5">
-                <h3 class="text-center pt-5 title-copy" data-aos="zoom-in-up">Descubre la experiencia de un hogar que va <br> más allá de las expectativas.</h3>
+                <h3 class="text-center pt-1 title-copy copy-text-r" data-aos="zoom-in-up">Descubre la experiencia <br> de un hogar que va más allá de las expectativas.</h3>
             </div>
             <div class="d-grid gap-2 col-sm-12 col-lg-2 mx-auto">
-                <a class="btn btn-lg btn-prana mt-5 mb-5 fw-bold" href="#cotizador">COTIZA AQUÍ</a>
+                <a class="btn btn-lg btn-prana mt-3 mb-5 fw-bold" href="#cotizador">COTIZA AQUÍ</a>
             </div>
         </div>
     </section>
@@ -120,69 +131,72 @@
             </div>
             <h2 class="text-center title-secction">AMENIDADES</h2>
             <div class="row d-flex justify-content-center icons-amenidades" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="img-mobile">
+                    
+                </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/sala-de-juntas.svg" class="icon-svg" alt="Sala de juntas">
-                    <h5 class="pt-3">Sala de juntas</h5>
+                    <h5 class="pt-3 copy-icons">Sala de juntas</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/sala-de-terapia.svg" class="icon-svg" alt="Sala de terapia">
-                    <h5 class="pt-3">Sala de terapia</h5>
+                    <h5 class="pt-3 copy-icons">Sala de terapia</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/sala-de-meditacion.svg" class="icon-svg" alt="Sala de meditacion">
-                    <h5 class="pt-3">Sala de meditación</h5>
+                    <h5 class="pt-3 copy-icons">Sala de meditación</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/area-de-yoga.svg" class="icon-svg" alt="Area de yoga">
-                    <h5 class="pt-3">Área de yoga</h5>
+                    <h5 class="pt-3 copy-icons">Área de yoga</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/gimnacio.svg" class="icon-svg" alt="Gimnasio">
-                    <h5 class="pt-3">Gimnasio</h5>
+                    <h5 class="pt-3 copy-icons">Gimnasio</h5>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center icons-amenidades pt-5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="row justify-content-center icons-amenidades pt-5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/grill-bar.svg" class="icon-svg" alt="Grill bar">
-                    <h5 class="pt-3">Grill Bar</h5>
+                    <h5 class="pt-3 copy-icons">Grill Bar</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/fogata-bajo-las-estrellas.svg" class="icon-svg" alt="Fogata bajo las estrellas">
-                    <h5 class="pt-3">Fogata bajo <br> las estrellas</h5>
+                    <h5 class="pt-3 copy-icons">Fogata bajo <br> las estrellas</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/garden-lounge.svg" class="icon-svg" alt="Garden Lounge">
-                    <h5 class="pt-3">Garden Lounge</h5>
+                    <h5 class="pt-3 copy-icons">Garden Lounge</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/kids.svg" class="icon-svg" alt="Kids">
-                    <h5 class="pt-3">Área de yoga</h5>
+                    <h5 class="pt-3 copy-icons">Área de niños</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/piscina.svg" class="icon-svg" alt="Piscina">
-                    <h5 class="pt-3">Piscina</h5>
+                    <h5 class="pt-3 copy-icons">Piscina</h5>
                 </div>
             </div>
             <div class="row d-flex justify-content-center icons-amenidades pt-5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/hurtos-organicos.svg" class="icon-svg" alt="Sala de juntas">
-                    <h5 class="pt-3">Huertos Org&aacute;nicos</h5>
+                    <h5 class="pt-3 copy-icons">Huertos Org&aacute;nicos</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/vestibulo-zen.svg" class="icon-svg" alt="Vestibulo Zen">
-                    <h5 class="pt-3">Vestibulo Zen</h5>
+                    <h5 class="pt-3 copy-icons">Vestibulo Zen</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/CCTV.svg" class="icon-svg" alt="CCTV">
-                    <h5 class="pt-3">CCTV</h5>
+                    <h5 class="pt-3 copy-icons">CCTV</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/elevador.svg" class="icon-svg" alt="Elevador">
-                    <h5 class="pt-3">Elevador</h5>
+                    <h5 class="pt-3 copy-icons">Elevador</h5>
                 </div>
                 <div class="col-sm-4 col-lg-2 col-md-6 text-center pt-5">
                     <img src="sourse/icons/chute-de-basura.svg" class="icon-svg" alt="Chute de basura">
-                    <h5 class="pt-3">Chute de basura</h5>
+                    <h5 class="pt-3 copy-icons">Chute de basura</h5>
                 </div>
             </div>
         </div>
@@ -304,14 +318,22 @@
         </div>
         <div class="d-flex align-items-center justify-content-center">
             <img src="sourse/mapa-prana.png" class="mapa-space img-fluid" alt="Ubicación de comunidad PRANA" data-bs-target="#nivel-1" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="400">
+
         </div>
-        <div class="container-fluid section-copy-mapa">
+        <div class="d-flex align-items-center justify-content-center">
+                <a class="btn btn-lg btn-prana mt-5 mb-2 fw-bold" target="_blank" href="https://goo.gl/maps/uBdkYBAEJA1kq5MJA" data-aos="zoom-in" data-aos-delay="50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                VER UBICACIÓN</a>
+            </div>
+        <div class="container-fluid section-copy-mapa pt-5">
             <div class="row pt-5">
                 <div class="col-md-12">
-                    <h3 class="text-center pt-5 title-copy" data-aos="zoom-in-up">Descubre la experiencia de un hogar que va <br> más allá de las expectativas.</h3>
+                    <h3 class="text-center pt-5 title-copy copy-text-r" data-aos="zoom-in-up">Descubre la experiencia de un hogar que va <br> más allá de las expectativas.</h3>
                 </div>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center pb-5">
                 <a class="btn btn-lg btn-prana mt-5 mb-5 fw-bold" href="#descargar-brochure" data-aos="zoom-in" data-aos-delay="50">VER BROCHURE</a>
             </div>
         </div>
@@ -319,19 +341,28 @@
     <!-- Copy Ubicacion -->
     <!-- Banner -->
     <div class="d-flex align-items-center justify-content-center section-banner-image">
-        <h2 class="header-banner" data-aos="zoom-in-up">LA SANACIÓN ES UN REGALO QUE <br> TE MERECES DARTE A TI MISMO</h2>
+        <h2 class="header-banner" data-aos="zoom-in-up">LA SANACIÓN ES UN <br>REGALO QUE MERECES DARTE</h2>
     </div>
-    <!-- Banner -->
-    <!-- Cotizador -->
-    <section id="cotizador" class="section-cotizador">
+    <div id="cotizador">
+        <iframe src='https://app.adaracrm.com/empresa/luvora/cotizador/prana/torre1?iframe=true&vendedor=NDkzNA%3D%3D%0A' width='100%' height='800'></iframe>
+    </div>
+    <!--Banner-->
+    <!--Cotizador-->
+    <!--<div id="cotizador">
+        <iframe src='https://app.adaracrm.com/empresa/luvora/cotizador/prana/torre1?iframe=true&vendedor=NDkzNA%3D%3D%0A' width='100%' height='1024' frameborder="0" allowfullscreen></iframe>
+    </div> -->
+    <!-- <section id="cotizador" class="section-cotizador">
         <div class="d-grid justify-content-center align-items-center btn-niveles">
             <h2 class="title-secction cotizador-header mb-5" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">COTIZA AQUÍ</h2>
-            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-4" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">Nivel 4</button>
-            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-3" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">Nivel 3</button>
-            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-2" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">Nivel 2</button>
-            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-1" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">Nivel 1</button>
+            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-4">Nivel 4</button>
+            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-3">Nivel 3</button>
+            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-2">Nivel 2</button>
+            <button class="button-cotizador-nivel" type="button" data-bs-toggle="modal" data-bs-target="#nivel-1">Nivel 1</button>
         </div>
-    </section>
+
+    </section>-->
+        <!-- Modales cotizador -->
+    <!-- Modales cotizador -->
     <!-- Cotizador -->
     <section id="descargar-brochure">
         <div class="container-fluid descargar-brochure" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
@@ -356,35 +387,38 @@
     </section>
     <section id="acerca-de-luvora" class="section-luvora">
         <div class="container">
-            <h2 class="title-secction text-white" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">UN DESARROLLO DE</h2>
+            <h2 class="title-secction text-white copy-text-r" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="400">UN DESARROLLO DE</h2>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="sourse/logo-luvora.svg" alt="Luvora" class="img-fluid pb-5">
-                    <h3 class="text-white">
-                        <img src="sourse/check.svg" class="img-fluid" alt="check"> Desarrolladora enfocada en proyectos de <br>alta plusvalía.
-                    </h3>
-                    <h3 class="text-white text-left pt-5">
-                        <img src="sourse/check.svg" class="img-fluid" alt="check"> Constructora Integral.
-                    </h3>
-                    <h3 class="text-white text-left pt-5">
-                        <img src="sourse/check.svg" class="img-fluid" alt="check"> Equipo dedicado a compartir servicio y amor.
-                    </h3>
+                    <img src="sourse/logo-luvora.svg" alt="Luvora" class="img-fluid pb-5 logo-luvora-footer">
+                    <h5 class="text-white">
+                        <img src="sourse/check-1.svg" class="img-fluid" alt="check"> Desarrolladora enfocada en proyectos de alta plusvalía.
+                    </h5>
+                    <h5 class="text-white text-left pt-5">
+                        <img src="sourse/check-1.svg" class="img-fluid" alt="check"> Constructora Integral.
+                    </h5>
+                    <h5 class="text-white text-left pt-5">
+                        <img src="sourse/check-1.svg" class="img-fluid" alt="check"> Equipo dedicado a compartir servicio y amor.
+                    </h5>
                 </div>
                 <div class="col-md-4">
                     <img src="sourse/badge_luvora.svg" alt="Luvora" class="img-fluid logo-badge pt-5">
                 </div>
             </div>
-            
         </div>
         <div class="d-flex justify-content-center align-items-center pt-5 mt-4">
-            <a href=""></a>
+            <a type="button" data-bs-toggle="modal" class="pb-4 text-white" data-bs-target="#avisodeprivacidad">Aviso de privacidad</a>
         </div>
     </section>
+    <!-- // comentario -->
+<img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/529993265777'">
+<!-- // comentario -->
+<style>
+    img.btn-whatsapp {display: block !important;position: fixed;z-index: 9999999;bottom: 20px;right: 20px;cursor: pointer;border-radius:100px !important;
+    }img.btn-whatsapp:hover{border-radius:100px !important;-webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);transition-duration: 1s;
+    } 
+</style>
     <!-- Acerca Luvora -->
-
-    <!-- Modales cotizador -->
-    <?php include 'modals.php';?>
-    <!-- Modales cotizador -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/fslightbox.js"></script>
@@ -392,69 +426,86 @@
     <script>
     AOS.init();
     </script>
-    <!-- <script>
-        $(function() {
-            $("galeria").load("URL para llamarlo");
-        });
-    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-    <script>
-    function mostrarContenido(numero) {
-        // Ocultar los 4 botones
-        var buttons = document.getElementsByClassName("btn-container");
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].style.display = "none";
-        }
+    
+<script>
+    // Guarda el estado original de la página
+    let initialState = null;
 
-        // Mostrar el contenido correspondiente al botón seleccionado
-        var content = document.getElementById("content-" + numero);
+    // Función para guardar el estado actual
+    function guardarEstado() {
+        initialState = document.body.innerHTML;
+    }
+
+    // Función para restaurar el estado original
+    function restaurarEstado() {
+        if (initialState !== null) {
+            document.body.innerHTML = initialState;
+            initialState = null;
+        }
+    }
+
+    function mostrarContenido(numero) {
+        // Ocultar la clase img-mobile
+        const imgMobile = document.getElementsByClassName("img-mobile");
+        Array.from(imgMobile).forEach(img => img.style.display = "none");
+
+        // Resto del código para mostrar el contenido...
+        const buttons = document.getElementsByClassName("btn-container");
+        Array.from(buttons).forEach(button => button.style.display = "none");
+
+        const content = document.getElementById("content-" + numero);
         content.classList.add("active");
+
+        const imgNivel = document.getElementsByClassName("img-nivel");
+        Array.from(imgNivel).forEach(img => img.style.display = "none");
+
+        // Guardar el estado actual antes de realizar los cambios
+        guardarEstado();
     }
 
     function regresar() {
-        // Mostrar los 4 botones
-        var buttons = document.getElementsByClassName("btn-container");
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].style.display = "block";
-        }
+        // Resto del código para regresar al contenido original...
+        const buttons = document.getElementsByClassName("btn-container");
+        Array.from(buttons).forEach(button => button.style.display = "block");
 
-        // Ocultar todo el contenido
-        var content = document.getElementsByClassName("content");
-        for (var i = 0; i < content.length; i++) {
-            content[i].classList.remove("active");
-        }
+        const content = document.getElementsByClassName("content");
+        Array.from(content).forEach(item => item.classList.remove("active"));
+
+        const imgNivel = document.getElementsByClassName("img-nivel");
+        Array.from(imgNivel).forEach(img => img.style.display = "block");
+
+        // Guardar el estado actual antes de realizar los cambios
+        guardarEstado();
     }
-    </script>
+
+    // Agregar el event listener para restaurar el estado original al hacer clic en "Close"
+    const Close = document.getElementById("Close");
+    closeButton.addEventListener('click', restaurarEstado);
+
+    // Guardar el estado inicial al cargar la página
+    guardarEstado();
+</script>
+
     <script>
-        // Obtener el elemento del campo de teléfono
+       // Obtener el elemento del campo de teléfono
         var telefonoInput = document.getElementById('telefono');
 
         // Agregar el evento de entrada al campo de teléfono
         telefonoInput.addEventListener('input', function(e) {
-          // Obtener el valor actual del campo de teléfono
-          var telefono = e.target.value;
-
-          // Eliminar todos los caracteres que no sean dígitos
-          telefono = telefono.replace(/\D/g, '');
+          // Obtener el valor actual del campo de teléfono y eliminar todos los caracteres que no sean dígitos
+          var telefono = e.target.value.replace(/\D/g, '');
 
           // Limitar el número de dígitos a 10
           telefono = telefono.substring(0, 10);
 
           // Aplicar la máscara al número de teléfono
-          var formattedTelefono = '';
-          if (telefono.length > 0) {
-            formattedTelefono = telefono.substring(0, 4);
-            if (telefono.length > 4) {
-              formattedTelefono += ' ' + telefono.substring(4, 7);
-              if (telefono.length > 7) {
-                formattedTelefono += ' ' + telefono.substring(7, 10);
-              }
-            }
-          }
+          var formattedTelefono = telefono.replace(/(\d{4})(\d{3})(\d{3})/, '$1 $2 $3');
 
           // Actualizar el valor del campo de teléfono con la versión formateada
           e.target.value = formattedTelefono;
         });
+
 </script>
 </body>
 </div>

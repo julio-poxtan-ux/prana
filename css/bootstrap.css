@@ -238,7 +238,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1rem + 0.4vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -5636,7 +5636,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
-    --bs-modal-width: 70vw;
+    --bs-modal-width: 73vw;
   }
 }
 @media (min-width: 1200px) {
