@@ -18,16 +18,16 @@
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
-    <meta http-equiv="expires" content="Tue, 01 Jan 2024 1:00:00 GMT" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 2025 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://prana.luvora.com.mx/" />
+    <meta property="og:url" content="https://www.luvora.com.mx/prana" />
     <meta property="og:title" content="PRANA — Comunidad Holística" />
     <meta property="og:description" content="En PRANA Descubre la experiencia de un hogar que va más allá de las expectativas." />
     <!-- Twitter -->
     <meta property="twitter:card" content="previo.jpg" />
-    <meta property="twitter:url" content="https://prana.luvora.com.mx/" />
+    <meta property="twitter:url" content="https://www.luvora.com.mx/prana" />
     <meta property="twitter:title" content="PRANA — Comunidad Holística" />
     <meta property="twitter:description" content="En PRANA Descubre la experiencia de un hogar que va más allá de las expectativas." />
     <meta property="twitter:image" content="previo.jpg" />
